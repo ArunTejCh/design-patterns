@@ -3,8 +3,8 @@ package creational.factorymethod;
 public class LamborginiFactory extends Factory{
 
 	@Override
-	public String getEngine() {
-		return "Italian Stallion";
+	public Engine getEngine() {
+		return new Gas();
 	}
 
 }
